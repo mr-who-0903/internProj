@@ -3,7 +3,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bg.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bg3.jpg');
+    background-attachment: fixed;
+    background-size: 1400px 900px;
 }
 .heading{ 
     padding: 80px 0px;
@@ -109,6 +111,7 @@ body{
     padding: 10px;
     position: relative;
     background: #621818;
+    opacity: 0.9;
     height: 40px;
     border-radius: 40px;
 }
@@ -150,9 +153,12 @@ body{
     margin: 20px 6px;
     padding: 8px;
     font-size: 15px;
-    background-color: #fad8d8;
+    background-color: #ddd7d7;
+    opacity: 0.8;
     color: #1f0909;
     font-weight: bold;
+    outline: none;
+    border: none
 }
 .sorry{
     color: #a9adb1;
