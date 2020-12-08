@@ -96,14 +96,17 @@ const App = () =>{
             </div>
             <div className="selectDiv" onChange={changeDropdownState}>
                     <select id="select1">
-
                         <option value="Alcoholic">Alcoholic</option>
                         <option value="Non_Alcoholic">Non-Alcoholic</option>
                     </select>
+                
                     <select id="select2" >
-
                         <option value="Cocktail">Cocktail</option>
                         <option value="Ordinary_Drink">Ordinary Drink</option>
+                        <option value="Cocoa">Cocoa</option>
+                        <option value="Beer">Beer</option>
+                        <option value="Shot">Shot</option>
+                        <option value="Homemade_Liqueur">Homemade Liqueur</option>
                     </select>
                 </div>
 
